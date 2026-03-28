@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../core/utils/logic.dart';
+import '../../../bloc/funds_bloc.dart';
 import '../widgets.dart';
 
 class BalanceWidget extends StatelessWidget {
@@ -45,12 +47,16 @@ class BalanceWidget extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 8),
-            Text(
-              "\$${balance.toStringAsFixed(0)}",
-              style: const TextStyle(
-                  color: Colors.black,
-                  fontSize: 32,
-                  fontWeight: FontWeight.bold),
+            BlocBuilder<FundsBloc, FundsState>(
+              builder: (context, state) {
+                return Text(
+                  "\$ ${formatCurrency(state.balance)}",
+                  style: const TextStyle(
+                      color: Colors.black,
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold),
+                );
+              },
             )
           ],
         ),

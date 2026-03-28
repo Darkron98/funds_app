@@ -1,4 +1,11 @@
-export 'package:fund_app/src/features/funds/presentation/widgets/funds/transactions_widget.dart';
-export 'package:fund_app/src/features/funds/presentation/widgets/funds/badge_widget.dart';
-export 'package:fund_app/src/features/funds/presentation/widgets/funds/history_section.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/dots_loader.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/history/history_section.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/history/history_list.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/history/history_item.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/history/balance_widget.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/badge_widget.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/funds/fund_list.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/funds/fund_item.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/responsive_list.dart';
+export 'package:fund_app/src/features/funds/presentation/widgets/history/transactions_widget.dart';
 export 'package:fund_app/src/features/funds/presentation/widgets/funds/funds_section.dart';
