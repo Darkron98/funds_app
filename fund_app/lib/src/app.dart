@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'features/funds/presentation/screens/funds.dart';
+import 'features/funds/presentation/screens/funds/funds.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -9,11 +9,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Funds app',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FundsPage(title: 'Flutter Demo Home Page'),
+      home: const FundsPage(title: 'Funds app'),
     );
   }
 }
