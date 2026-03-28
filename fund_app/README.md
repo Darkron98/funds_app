@@ -1,16 +1,19 @@
 # fund_app
 
-A new Flutter project.
+Aplicación Flutter para gestión de fondos, diseñada para ejecutarse tanto en **web (navegador)** como en **dispositivos moviles**.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerrequisitos
 
-A few resources to get you started if this is your first Flutter project:
+tener instalado:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Dart (incluido con Flutter)
+- Un navegador (Chrome recomendado)
+- Android Studio / Xcode (opcional, para mobile)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Verifica tu instalación con:
+
+```bash
+flutter doctor
